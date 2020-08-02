@@ -16,11 +16,13 @@ public class LinearSearch2 {
         int element = sc.nextInt();
 
         int index = 0;
-        while (index < 0 && arr[index] < element) {
+        while (index < n && arr[index] < element)
             index++;
-            if (index > n || arr[index] > element) {
-                System.out.println("element not found");
-            }
-        }
+        if (index > n || arr[index] > element)
+            System.out.println("element not found");
+
+        System.out.println("element " + element + " found at " + index + " position");
+
+
     }
 }
