@@ -1,5 +1,6 @@
 package searching.binary_search;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BinarySearch {
@@ -12,7 +13,9 @@ public class BinarySearch {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        Arrays.sort(arr);
         System.out.println("enter the element to be searched");
         int element = sc.nextInt();
+
     }
 }
