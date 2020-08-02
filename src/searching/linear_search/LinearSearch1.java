@@ -12,7 +12,8 @@ public class LinearSearch1 {
         }
         int element = sc.nextInt();
         for (int i = 0; i < n; i++) {
-
+            if (element == arr[i])
+                System.out.println("element" + element + "found at" + i + "position");
         }
     }
 }
