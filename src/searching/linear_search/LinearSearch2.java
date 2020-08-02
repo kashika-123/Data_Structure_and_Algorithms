@@ -14,5 +14,11 @@ public class LinearSearch2 {
         }
         System.out.println("enter the element to be searched");
         int element = sc.nextInt();
+
+        int index = 0;
+        while (index < 0 && arr[index] < element) {
+            index++;
+
+        }
     }
 }
