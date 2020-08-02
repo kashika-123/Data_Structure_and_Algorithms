@@ -10,5 +10,9 @@ public class LinearSearch1 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        int element = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+
+        }
     }
 }
