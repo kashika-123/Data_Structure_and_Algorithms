@@ -16,6 +16,15 @@ public class BinarySearch {
         Arrays.sort(arr);
         System.out.println("enter the element to be searched");
         int element = sc.nextInt();
+        int low = 0;
+        int high = arr.length - 1;
+
+        while (low <= high) {
+
+
+        }
 
     }
-}
+
+    }
+
