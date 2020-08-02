@@ -18,7 +18,9 @@ public class LinearSearch2 {
         int index = 0;
         while (index < 0 && arr[index] < element) {
             index++;
-
+            if (index > n || arr[index] > element) {
+                System.out.println("element not found");
+            }
         }
     }
 }
