@@ -21,6 +21,11 @@ public class BinarySearch {
 
         while (low <= high) {
 
+            int middle = (low + high) / 2;
+            if (arr[middle] == element) {
+                System.out.println("element " + element + " found at " + middle + " position");
+                break;
+            }
 
         }
 
