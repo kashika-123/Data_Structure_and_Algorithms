@@ -25,11 +25,14 @@ public class BinarySearch {
             if (arr[middle] == element) {
                 System.out.println("element " + element + " found at " + middle + " position");
                 break;
+            } else if (arr[middle] < element) {
+                low = middle + 1;
+            } else {
+                high = middle - 1;
             }
 
         }
 
     }
-
-    }
+}
 
