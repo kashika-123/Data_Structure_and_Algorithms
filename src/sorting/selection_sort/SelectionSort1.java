@@ -10,5 +10,15 @@ public class SelectionSort1 {
         for (int i = 0; i < n; i++) {
             array[i] = sc.nextInt();
         }
+
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        if (i == j)
+            return;
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+
     }
 }
