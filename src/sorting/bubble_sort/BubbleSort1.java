@@ -13,7 +13,9 @@ public class BubbleSort1 {
         }
         for (int unsortedPartitionIndex = array.length - 1; unsortedPartitionIndex > 0; unsortedPartitionIndex--) {
             for (int i = 0; i < unsortedPartitionIndex; i++) {
-
+                if (array[i] > array[i + 1]) {
+                    swap(array, i, i + 1);
+                }
 
             }
         }
