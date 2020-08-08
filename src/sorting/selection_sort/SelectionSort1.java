@@ -10,6 +10,10 @@ public class SelectionSort1 {
         for (int i = 0; i < n; i++) {
             array[i] = sc.nextInt();
         }
+        for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+
+        }
+        // System.out.println(Arrays.toString(array));
 
     }
 
