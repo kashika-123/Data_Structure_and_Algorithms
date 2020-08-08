@@ -1,6 +1,5 @@
 package sorting.bubble_sort;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BubbleSort1 {
@@ -19,8 +18,9 @@ public class BubbleSort1 {
 
             }
         }
-        System.out.println(Arrays.toString(array));
-
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 
     public static void swap(int[] arr, int i, int j) {
