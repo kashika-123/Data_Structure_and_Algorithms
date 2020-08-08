@@ -1,5 +1,6 @@
 package sorting.selection_sort;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SelectionSort1 {
@@ -21,7 +22,7 @@ public class SelectionSort1 {
             swap(array, largest, lastUnsortedIndex);
 
         }
-        // System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array));
 
     }
 
