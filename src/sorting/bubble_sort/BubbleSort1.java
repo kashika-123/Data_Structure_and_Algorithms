@@ -12,8 +12,10 @@ public class BubbleSort1 {
             array[i] = sc.nextInt();
         }
         for (int unsortedPartitionIndex = array.length - 1; unsortedPartitionIndex > 0; unsortedPartitionIndex--) {
+            for (int i = 0; i < unsortedPartitionIndex; i++) {
 
 
+            }
         }
         System.out.println(Arrays.toString(array));
 
@@ -28,6 +30,7 @@ public class BubbleSort1 {
         arr[j] = temp;
 
     }
+
 
 
 }
