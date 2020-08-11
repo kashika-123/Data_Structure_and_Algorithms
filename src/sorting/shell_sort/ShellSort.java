@@ -11,5 +11,9 @@ public class ShellSort {
             array[i] = sc.nextInt();
         }
 
+        for (int gap = array.length / 2; gap > 0; gap /= 2) {
+            
+        }
+
     }
 }
