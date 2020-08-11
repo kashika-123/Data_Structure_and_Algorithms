@@ -12,7 +12,12 @@ public class ShellSort {
         }
 
         for (int gap = array.length / 2; gap > 0; gap /= 2) {
-            
+            for (int i = gap; i < array.length; i++) {
+                int newElement = array[i];
+
+
+            }
+
         }
 
     }
